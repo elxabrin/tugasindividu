@@ -1,5 +1,6 @@
 const myForm = document.getElementById('my-form')
 const fnama = document.getElementById('fnama-text')
+const jabatan = document.getElementById('jabatan-text')
 const kesediaan = document.getElementById('kesediaan-text')
 const fumur = document.getElementById('fumur-number')
 const domisili = document.getElementById('domisili-text')
