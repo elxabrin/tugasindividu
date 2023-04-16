@@ -1,0 +1,109 @@
+
+body {
+    background-color: #fc8114;
+}
+
+.container{
+    position: absolute;
+    width: 510px;
+    height: 345px;
+    margin: 20px auto 0;
+    padding: 50px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    background-color: orange;
+    -moz-box-shadow: 0 0 5px 5px #6cd986;
+    -webkit-box-shadow: 0 0 5px 5px #6cd986;
+    box-shadow: 0 0 8px 8px #6cd986; 
+    }
+   
+
+   h2{
+    margin-top: -40px;
+    padding: 0 0 10px;
+    color: black;
+    text-align: center;
+    font-family: rockwell;
+   }
+
+   .box{
+    padding: 20px;
+    width: 120px;
+    float: left;
+    margin: 5px;
+    height: 110px;
+    transition: box-shadow .3s;
+    line-height: 30px;
+    }
+
+   .box:hover{
+    box-shadow: 0 0 10px 10px rgba(33,33,33,.2);
+   }
+
+   #box1{
+       background: #196F3D;
+       border-radius: 10px 10px 10px 10px;
+       text-align: center;
+       color: white;
+    }
+
+   #box2{
+    background: #28B463 ;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    color: black;
+    }
+
+    #box3{
+    background: #58D68D;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    color: black;
+    }
+
+    #box4{
+        background: #82E0AA;
+        border-radius: 10px 10px 10px 10px;
+        text-align: center;
+        color: black;
+    }
+
+    #box5{
+        background: #ABEBC6;
+        border-radius: 10px 10px 10px 10px;
+        text-align: center;
+        color: black;
+    }
+
+    #box6   {
+        background: #E0FFFF;
+        border-radius: 10px 10px 10px 10px;
+        text-align: center;
+        color: black;
+    }
+
+    .search{
+        padding: 8px 9px;
+        background: white;
+        border: 0px;
+        border-radius: 20px 20px 20px 20px;
+        margin-top: -20px;
+        margin-left: 124px;
+    }
+
+    .button{
+        padding: 8px 9px;
+        background: #0f0338;
+        color: white;
+        border-radius: 20px 20px 20px 20px;
+        margin-top: -20px;
+    }
+    .button:hover{
+        background: #E0FFFF;
+        color: #0f0338;
+    }
+
+
+
